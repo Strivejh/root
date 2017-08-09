@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+body { text-align:left; background:#fff; font-family:"微软雅黑", Verdana, Arial, Helvetica, sans-serif;}
+body, form, ul, dl, ol, dt, dd {padding:0;margin:0;}
+ul, dl, ol {list-style:none;}
+* {font-size:12px;}
+label{vertical-align:middle;display:inline-block;_display:inline;}
+input.num{width:75px;}
+
+table.gridtable {background-color:#E7EFFF;font-family: verdana,arial,sans-serif;font-size:11px;color:#333333;border-width: 1px;border-color: #666666;border-collapse: collapse;}
+table.gridtable th {font-weight:bold;border-width: 1px;padding: 4px;border-style: solid;border-color: #FFFFFF;background-color: #6BADDF;color:#FFFFFF}
+table.gridtable td {border-width: 1px;height:30px;border-style: solid;border-color:#FFFFFF;text-align: center;padding:5px;}
+table.gridtable tr:hover { background:#ffffe1;}
+table.gridtable tr:hover td {color:#000;}
+table.gridtable .tbody td:hover { background:#E8EDFF;}
+table.gridtable .tbody .sub_list td:hover { background:#ffffe1;}
+
+table.matchinfo {font-family: verdana,arial,sans-serif;font-size:11px;color:#333333;border-width: 1px;border-color: #666666;border-collapse: collapse;}
+table.matchinfo th {height:22px;font-weight:bold;border-width: 1px;padding: 4px;border-style: solid;border-color: #FFFFFF;background-color: #CCCCFF}
+table.matchinfo td {height:18px;border:0px;background-color:#E7EFFF}
+table.matchinfo tbody.gamepnl{border:1px solid #FFFFFF;}
+
+table.matchinfo2 {background-color:#E7EFFF;margin-top:2px;font-family: verdana,arial,sans-serif;font-size:11px;color:#333333;border-width: 1px;border-color: #666666;border-collapse: collapse;}
+table.matchinfo2 th {height:28px;font-weight:bold;border-width: 1px;padding: 4px;border-style: solid;border-color: #FFFFFF;background-color: #6BADDF;color:#FFFFFF}
+table.matchinfo2 td {height:18px;border:0px;}
+table.matchinfo2 td.ratio2{font-size:12px;font-weight:bold;text-align:center;}
+table.matchinfo2 tbody.gamepnl{border:1px solid white;border-collapse: collapse;}
+
+table.other_table{float:left;margin-right:10px;background-color:#E7EFFF;font-family: verdana,arial,sans-serif;font-size:11px;color:#333333;border-width: 1px;border-color: #666666;border-collapse: collapse;margin-top:5px;}
+table.other_table thead{background-color: #6BADDF;color:#FFFFFF}
+table.other_table thead td {color:#FFFFFF;padding-left:5px;height:20px;font-weight:700;}
+table.other_table tbody tr{border:1px solid #FFFFFF;}
+table.other_table span.index,table.other_table span.ratio{display:inline-block;text-align:center;width:100%;padding:5px;}
+table.other_table span.index{font-weight:600;color:#666699}
+table.other_table span.ratio{font-weight:bold;}
+
+/* CSS Table */
+table.list {border-collapse:collapse; border:solid 1px #ededed;background:#d5eaf0;}
+table.list thead tr {background:#CFE7B3;}
+table.list thead th {color:white;text-align:center}
+table.nowrap tbody tr {border-bottom:solid 1px #ededed;}
+table.list td,table.list th{padding:5px;border:1px solid #fff;border-width:0 1px 1px 0;}
+table.list th{text-align:left;background:#91c5d4;}
+table.list td{text-align:center;}
+table.list tbody tr:hover td{ background:#E8EDFF;}
+table.list tbody tr:nth-child(even){background:#F0F9E4 !important;}
+
+table.form thead tr {background:#336699;color:#FFFFFF;font-weight:bold;}
+table.form {border-collapse:collapse; border:solid 1px #CCCCCC;  border-collapse:collapse;}
+table.form td,table.form th{padding:5px;border:1px solid #CCCCCC;border-width:0 1px 1px 0;border-collapse:collapse;}
+table.form tbody td *{line-height:16px;}
+table.form tbody tr:nth-child(even){background-color:#F3F3E2 !important;}
+table.form tbody tr:nth-child(odd){background-color:#FFFFFF !important;}
+
+table.matchmag thead tr {background-color:#6BADDF;color:white}
+table.matchmag {background-color:#FFFDF3; border:solid 1px #CCCCCC;  border-collapse:collapse;table-layout: fixed;width:100%}
+table.matchmag tbody tr:hover td{ background-color:#E8EDFF;}
+table.matchmag tbody tr:nth-child(even){background:#F0F0F0 !important;}
+
+.table_1 {clear:both;border-collapse:collapse;border:1px #ccc solid;width:100%;font-size:12px;table-layout: fixed;}
+.table_1 thead th{font-weight: bold;}
+.table_1 th { background:#e3e3e3;padding:5px;border-bottom:1px #ccc solid;border-right:1px #ccc solid;}
+.table_1 td {padding:5px;border-bottom:1px #ccc solid;border-right:1px #ccc solid;word-break: break-all; word-wrap:break-word;}
+.table_1 tr:hover { background:#E8EDFF}
+
+.table_2 {border-collapse:collapse; border:solid 1px #9ec596;  border-collapse:collapse;  background:#e6f3e2}
+.table_2 thead tr {background:#336699;color:#FFFFFF;font-weight:bold;}
+.table_2 th{padding:5px;border:#94b28e 1px solid;border-width:0 1px 1px 0;border-collapse:collapse;}
+.table_2 td{border: 1px solid #9ec596;}
+.table_2 tbody td{padding:2px 0px 2px 0px;}
+.table_2 .htd{background-color:#d8f6d1 }
+
+table.table_3 thead tr{height:28px;}
+table.table_3 thead th{border:1px solid #CCCCCC;}
+table.table_3 thead tr {background:#336699;color:#FFFFFF;font-weight:bold;}
+table.table_3 {border-collapse:collapse; border:solid 1px #CCCCCC;  border-collapse:collapse;}
+table.table_3 td,table.form th{padding:5px;border:1px solid #CCCCCC;border-width:0 1px 1px 0;border-collapse:collapse;}
+
+.b_frame {border:1px #d3dbe7 solid;margin-top:5px;margin-bottom:10px;clear:both; background:#fff;}
+.b_frame .tit {border-bottom:1px #d3dbe7 solid;background:#e8ecee;height:26px;line-height:26px;font-weight:bold;font-size:12px;color:#000;margin:0;padding:0 0 0 10px; text-align:left; position:relative;}
+
+.panelhead{
+	padding: 4px 4px 4px 12px;
+	border-image: none;
+	line-height: 15px;
+	font-size: 11px;
+	color: #003366;
+	font-weight: bold;
+	background-color: #CCCCCC;
+}
+
+#userCodeCheckStatus {
+	top: 2px;
+	width: 20px;
+	height: 14px;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+}
+#userCodeCheckIcon {
+	top: -4px;
+	display: none;
+	position: relative;
+}
+.table-icon-cell {
+	text-align: center;
+	width: auto;
+}
+.common-img {
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.red2{color:#993333}
+.blue{color:blue;}
+.red-text{color:#FF0033;}
+.g1{color:#333399;}
+.g2{color:#CC9966;}
+.text-green2{color:#999933;}
+.flag1{color:#FFFF00;display:inline-block;background-color:#0066CC;}
+a.f1{color:#336600; text-decoration:none;cursor: pointer;}
+a.f1:hover {color:#f60; text-decoration: underline;}
+a.f2{color:blue;cursor: pointer;text-decoration: underline; font-size: 14px}
+a.f2:hover {color:#f60; text-decoration: underline;}
+
+a.btn1,a.btn2,a.btn3{
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	text-decoration: none;
+	display: inline-block;
+}
+a.btn1{line-height:16px;font-size:12px;color: #FF6600;background-color: #f8f6fa;border:1px solid #FF6600;padding:1px 5px;}
+a.btn1:hover{color:white;background-color:#FF6600;text-decoration: none;}
+
+a.btn2{line-height:16px;font-size:12px;color: #428bca;background-color: #f8f6fa;border:1px solid #428bca;padding:1px 5px;}
+a.btn2:hover{color:white;background-color:#428bca;text-decoration: none;}
+
+a.btn3{line-height:16px;font-size:12px;color: #563d7c;background-color: #f8f6fa;border:1px solid #563d7c;padding:1px 5px;}
+a.btn3:hover{color:white;background-color:#563d7c;text-decoration: none;}
+
+a.a1{display: inline-block;margin:1px 0 1px 0;text-decoration: none;border:1px solid #428bca;background-color: #f8f6fa;color:#428bca;}
+a.a2{display: inline-block;margin:1px 0 1px 0;text-decoration: none;border:1px solid green;background-color: #f8f6fa;color:green;}
+a.a1:hover{text-decoration: none;background-color:#428bca;color:white;}
+a.a2:hover{text-decoration: none;background-color:green;color:white;}
+
+
+/*注单状态*/
+.record_status_1{color:blue;}
+.record_status_2{color:red;font-weight: bold;}
+.record_status_8{color:#006600;font-weight: bold;}
+/*取消注单行标识*/
+.record_status_tr8 {background-color:#CCCCCC;}
+
+/*操盘界面*/
+.bac_0{background-color:#6699CC;}
+.nobet{background-color:#999999;}
+
+.stime{display:inline-block;width:40px;text-align:center;color:blue;font-weight: bold;}
+.score{margin-top:2px;display:inline-block;width:40px;text-align:center;color:red;font-weight: bold;}
+
+.hdp-point {display:inline-block;width:40px;padding-left:4px;color:#3366CC}
+.sl2{max-width:130px;white-space:nowrap;overflow: hidden;}
+.sl2,.odd,.szb{display:inline-block;margin:1px 0 1px 0;}
+.odd{width:30px; text-align: center;color:#CC0033;font-weight: bold;}
+
+
+/*联赛*/
+.lgtd{text-indent:40px;background-color:#b6d1b0;color:#003366;font-weight:bold;line-height:18px;}
+
+
+a.autocompletespan,a.ui-corner-all{
+	line-height:25px;
+	text-align: center;
+	background-color: #FFFFCC;
+	color:#003399;
+	font-size:16px;
+	margin-bottom: 1px;	
+}
+.line1{margin-top:3px;height:1px;border:0px;background-color:#CC9966;color:#CC9966;}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xyy.springmvc.mybatis.mapper.UserMapper">
+
+   <resultMap type="com.xyy.springmvc.mybatis.beans.User" id="userMap">
+   			<id property="id" column="ID"/>
+   			<result property="name" column="NAME"/>
+   			<result property="deptNo" column="DEPT_NO"/>
+   			<result property="post" column="POST"/>
+   			<result property="sex" column="SEX"/>
+   			<result property="account" column="ACCOUNT"/>
+   			<result property="pwd" column="PWD"/>
+   			<result property="rightCode" column="RIGHT_CODE"/>
+   </resultMap>
+	
+	<sql id="findUserCons">
+
+		<if test="name != null and name != '' ">
+			and name = #{name}
+		</if>
+		<if test="account != null and account != '' ">
+			and account = #{account}
+		</if>
+	</sql>
+
+	<select id="countUserNums" resultType="int">
+		select count(1) from t_user where 1=1
+		<include refid="findUserCons" />
+	</select>
+
+	<select id="findUserPage" resultType="com.xyy.springmvc.mybatis.beans.User" parameterType="map">
+		SELECT *
+		FROM (SELECT T.*, ROWNUM rn
+		FROM (SELECT * FROM T_user where 1=1
+		<include refid="findUserCons" />
+		ORDER BY id DESC) T
+		WHERE <![CDATA[ ROWNUM <= #{endIndex} ]]>)
+		where rn >= #{startNum}
+
+	</select>
+	
+	<select id="findByAccount"    resultType="com.xyy.springmvc.mybatis.beans.User">
+		select account,name,DEPT_NO deptNo ,RIGHT_CODE rightCode 
+		from t_user
+		where account = #{account}
+	</select>
+
+  	<select id="findUserByAccount" resultMap="userMap"  >
+		select * from t_user where account = #{account}
+		
+	</select>
+	
+	<select id="findUser" resultType="user" parameterType="map">
+	SELECT * FROM T_user where 1=1 <include refid="findUserCons"/>
+    </select>	
+	 
+	 <delete id="delUser" parameterType="map">
+    	delete from t_user where id  = #{id}
+	</delete>
+	
+	  <insert id="addUser" parameterType="user">   
+    	insert into t_user( 
+    	    id,  		 
+    		account,
+    		pwd,
+    		name
+    	) values (
+    	    sq_user.nextval,
+			#{account},
+    		#{pwd},
+    		#{name}
+    	)   	
+    </insert>
+	<update id="updUser" parameterType="user">
+		update t_user set
+		
+		<if test="account != null and account != '' ">
+			account=#{account},
+		</if>
+		
+		<if test="pwd != null and pwd != '' ">
+			pwd=#{pwd},
+		</if>
+		
+
+		<if test="name != null and name != '' ">
+			name=#{name}
+		</if>
+   where id=#{id}
+	
+	</update>
+	 
+</mapper>
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/student
+END
+studentList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/crm/!svn/ver/22/trunk/mybatis-spring/WebContent/WEB-INF/content/student/studentList.jsp
+END
+updateStu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/student/updateStu.jsp
+END
+stuAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/student/stuAdd.jsp
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user
+END
+roleToAuthTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/roleToAuthTree.jsp
+END
+userList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/userList.jsp
+END
+roleAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/roleAdd.jsp
+END
+userUpd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/userUpd.jsp
+END
+userRoleTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/userRoleTree.jsp
+END
+rightRoleTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/rightRoleTree.jsp
+END
+userManager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/userManager.jsp
+END
+editPwd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/editPwd.jsp
+END
+roleList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/roleList.jsp
+END
+authTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/authTree.jsp
+END
+roleRight.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/roleRight.jsp
+END
+userAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/content/user/userAdd.jsp
+END

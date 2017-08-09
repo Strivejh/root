@@ -1,0 +1,61 @@
+/*!
+ * jQuery UI Tooltip 1.9.2
+ * http://jqueryui.com
+ *
+ * Copyright 2012 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+/* Fades and background-images don't work well together in IE6, drop the image */
+* html .ui-tooltip {
+	background-image: none;
+}
+body .ui-tooltip { border-width: 2px; }
+.ui-draggable, .ui-droppable {
+		background-position: top;
+	}
+	
+	.ui-combobox {
+		position: relative;
+		display: inline-block;
+	}
+	.ui-combobox-toggle {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin-left: -1px;
+		padding: 0;
+		/* adjust styles for IE 6/7 */
+		height: 1.8em;
+		top:0em;
+	}
+	.ui-combobox-input {
+		margin: 0;
+		padding: 0.3em;
+	}
+	body {
+		font-size: 62.5%;
+	}
+	
+	table {
+		font-size: 1em;
+	}
+	
+	.demo-description {
+		clear: both;
+		padding: 12px;
+		font-size: 1.3em;
+		line-height: 2.4em;
+	}
+	
+	.ui-draggable, .ui-droppable {
+		background-position: top;
+	}

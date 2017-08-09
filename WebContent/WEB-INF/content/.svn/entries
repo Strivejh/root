@@ -1,0 +1,86 @@
+10
+
+dir
+13
+https://zr_yl:8443/svn/crm/trunk/mybatis-spring/WebContent/WEB-INF/content
+https://zr_yl:8443/svn/crm
+
+
+
+2016-12-13T12:44:55.665337Z
+13
+user
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f1f74317-227f-9a41-84de-481a63167231
+
+feriend
+dir
+
+index.jsp
+file
+
+
+
+
+2016-12-11T09:31:59.573000Z
+47c7101f5e2d2d55e18eaa3bc57e0ab5
+2016-12-13T12:44:55.665337Z
+13
+user
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7334
+
+main
+dir
+
+public
+dir
+
+student
+dir
+
+system
+dir
+
+test
+dir
+
+tool
+dir
+
+user
+dir
+

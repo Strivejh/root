@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/tld
+END
+dict.tld
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/tld/dict.tld
+END
+right.tld
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/tld/right.tld
+END
+date.tld
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/tld/date.tld
+END
+i18n.tld
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm/!svn/ver/13/trunk/mybatis-spring/WebContent/WEB-INF/tld/i18n.tld
+END
